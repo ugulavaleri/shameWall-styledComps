@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const TableBodyPart = styled.tbody`
-    // height: 600px;
-
-    // overflow-y: scroll;
+    &::before {
+        content: ".";
+        line-height: 1.2em;
+        color: white;
+        display: block;
+    }
 `;
 export const TableDataCell = styled.td`
     font-size: 15px;

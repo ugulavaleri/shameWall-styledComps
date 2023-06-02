@@ -29,6 +29,7 @@ export const TableHeadlineTitles = styled.th`
         border-bottom-left-radius: 6px;
         padding-left: 15px;
         color: #464e5f;
+        font-weight: 600;
     }
     &:last-child {
         border-top-right-radius: 6px;
